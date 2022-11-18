@@ -9,3 +9,20 @@ body {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.e-grid .e-gridcontent .e-table {
+  @apply dark:bg-secondary-dark-bg;
+}
+.e-grid .e-gridcontent .e-table .e-row .e-rowcell {
+  @apply dark:text-white;
+}
+
+/* .e-schedule .e-schedule-toolbar .e-toolbar-items {
+  @apply dark:bg-secondary-dark-bg;
+}
+.e-schedule .e-schedule-toolbar .e-toolbar-items button {
+  @apply dark:bg-gray-600;
+}
+.e-schedule .e-schedule-toolbar .e-toolbar-items button .e-tbar-btn-text {
+  @apply dark:text-white;
+} */
