@@ -14,8 +14,6 @@ const Button = ({
 }) => {
   const { setIsClicked, initialState } = useStateContext();
 
-  console.log(initialState);
-
   return (
     <button
       type="button"
